@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title= "Logged app"
+    body
+        p Register done!
+
+        if(user)
+            p Your login is  #{user.login}, email #{user.email}
+        else 
+            p Try again :) 

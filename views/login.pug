@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title= "Login app"
+    body
+        p Please insert your login and email
+        form(action='/logged' method='GET')
+        p login:
+        input(type='text', name='login', placeholder='login')
+        p email:
+        input(type='email', name='email', placeholder='name@email.com')
+        input(type='submit', value='submit')
